@@ -8,15 +8,16 @@ interface UserListProps {
 
 const UserList: React.FC<UserListProps> = ({ userData }) => {
   return (
-    <div className="bg-emerald-500 p-2 rounded flex">
+    <div className="bg-emerald-500 p-2 rounded flex  lg:w-72">
       <div className="justify-center items-center w-full">
         <div className="m-auto text-center ">
           <Image
             src={userData.image}
-            className="h-24 w-24 m-auto"
+            className="h-36 w-36 m-auto"
             width={userData.weight}
             height={userData.height}
             alt={userData.maidenName}
+            layout="responsive"
           />
           <p>Nombre: {userData.firstName}</p>
           <p>Apellido: {userData.lastName}</p>

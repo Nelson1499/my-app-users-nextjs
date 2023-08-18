@@ -22,7 +22,7 @@ const Filter = () => {
 
   return (
     <div className="md:flex justify-between m-2">
-      <div className="border-2 border-emerald-500 p-2 text-white w-96 rounded">
+      <div className="border-2 border-emerald-500 p-2 text-white w-72 md:w-96 rounded">
         <input
           type="text"
           id="search"
