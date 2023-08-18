@@ -24,4 +24,9 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    @apply font-semibold text-base scroll-smooth
+}
+
+h1 {
+  @apply font-bold text-xl m-5
 }
