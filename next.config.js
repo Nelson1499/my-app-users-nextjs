@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "standalone" | "export",
+  output: "export",
   images: {
     domains: ["robohash.org"],
     unoptimized: true,
