@@ -36,6 +36,5 @@ next-env.d.ts
 
 /src/apis
 /src/hook
-/src/types
 /src/context
 
