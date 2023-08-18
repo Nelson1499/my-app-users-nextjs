@@ -4,7 +4,7 @@ const nextConfig = {
     domains: ["robohash.org"],
     unoptimized: true,
   },
-  output: "standalone",
+  output: "next export",
 };
 
 module.exports = nextConfig;
