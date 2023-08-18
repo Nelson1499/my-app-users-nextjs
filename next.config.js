@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "standalone" | "export",
   images: {
     domains: ["robohash.org"],
     unoptimized: true,
   },
-  output: "next export",
 };
 
 module.exports = nextConfig;
